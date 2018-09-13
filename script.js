@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   for (let i = 0; i <tic.squares.length; i++) {
     tic.squares[i].addEventListener ('click', (e)=>{
-
       switch (tic.playerTurn) {
         case true:
         tic.turnXO[0].innerHTML = `It is O's turn`;
